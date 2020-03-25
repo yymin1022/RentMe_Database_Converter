@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3605023c-88a6-4ddd-bd30-b931af6b9694" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585118778202</updated>
       <workItem from="1585118779483" duration="676000" />
-      <workItem from="1585120808055" duration="3558000" />
+      <workItem from="1585120808055" duration="4611000" />
     </task>
     <servers />
   </component>
@@ -79,28 +78,28 @@
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state x="424" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.982@0.23.1920.982" timestamp="1585118842843" />
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1585127490718">
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1585128248476">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1585127490718" />
-    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1585127490717">
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1585128248476" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1585128248475">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1585127490717" />
-    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1585127490716">
+    <state width="1878" height="356" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1585128248475" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1585128248474">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1585127490716" />
-    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1585127490717">
+    <state width="1878" height="356" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1585128248474" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1585128248475">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1585127490717" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1585128248475" />
     <state x="625" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1585127151899">
       <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state x="625" y="239" width="670" height="676" key="search.everywhere.popup/0.23.1920.982@0.23.1920.982" timestamp="1585127151899" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RentMe_Database_Converter$main.coverage" NAME="main Coverage Results" MODIFIED="1585127490707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RentMe_Database_Converter$main.coverage" NAME="main Coverage Results" MODIFIED="1585128248464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
