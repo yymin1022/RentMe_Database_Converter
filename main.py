@@ -22,11 +22,25 @@ for i in range(22):
     strJson = json.loads(response)
 
     for j in range(100):
-        print(strJson.get("response").get("body").get("items")[j])
+        try:
+            print(strJson.get("response").get("body").get("items")[j].get("entrpsNm"))
 
-# doc_ref = db.collection(u'companies').document(u'alovelace')
-# doc_ref.set({
-#     u'first': u'Ada',
-#     u'last': u'Lovelace',
-#     u'born': 1815
-# })
+            doc_ref = db.collection(u'companies').document(str(i) + "-" + str(j))
+            doc_ref.set({
+                u'addressGarage': strJson.get("response").get("body").get("items")[j].get("garageRdnmadr"),
+                u'addressOffice': strJson.get("response").get("body").get("items")[j].get("rdnmadr"),
+                u'countAll': strJson.get("response").get("body").get("items")[j].get("vhcleHoldCo"),
+                u'countCar': strJson.get("response").get("body").get("items")[j].get("carHoldCo"),
+                u'countElecCar': strJson.get("response").get("body").get("items")[j].get("eleCarHoldCo"),
+                u'countElecVan': strJson.get("response").get("body").get("items")[j].get("eleVansCarHoldCo"),
+                u'countVan': strJson.get("response").get("body").get("items")[j].get("vansHoldCo"),
+                u'latitude': strJson.get("response").get("body").get("items")[j].get("latitude"),
+                u'longitude': strJson.get("response").get("body").get("items")[j].get("hardness"),
+                u'name': strJson.get("response").get("body").get("items")[j].get("entrpsNm"),
+                u'telephone': strJson.get("response").get("body").get("items")[j].get("phoneNumber"),
+                u'timeClose': strJson.get("response").get("body").get("items")[j].get("weekdayOperColseHhmm"),
+                u'timeOpen': strJson.get("response").get("body").get("items")[j].get("weekdayOperOpenHhmm"),
+                u'webUrl': strJson.get("response").get("body").get("items")[j].get("homepageUrl"),
+            })
+        except IndexError:
+            break
